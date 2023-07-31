@@ -1,0 +1,431 @@
+@media screen and (max-width: 1760px) {
+    .container {
+        width: 1500px;
+    }
+    .news-block__item {
+        min-width: 730px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .container {
+        width: 1300px;
+    }
+    .slider-about-club {
+        position: relative;
+        width: 610px;
+        min-width: 0;
+        margin-right: 10px;
+    }
+    .about-club-wrap__info {
+        width: 598px;
+    }
+    .news-block__item__info {
+        width: 310px;
+    }
+    .news-block__item {
+        min-width: 540px;
+    }
+    .contacts-wrap__map {
+        width: 765px !important;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 1110px;
+    }
+    .about-club-wrap__info {
+        width: 460px;
+    }
+    .events-block {
+        padding: 0 20px;
+    }
+    .contacts-wrap__map {
+        width: 595px !important;
+    }
+}
+
+
+@media screen and (max-width: 1162px) {
+    .slider-about-club {
+        margin-right: 40px;
+    }
+    .slider-about-club .slick-next {
+        right: -35px;
+    }
+    .slider-about-club .slick-prev {
+        left: -35px;
+    }
+    .about-club-wrap__info {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 1162px) {
+    .container {
+        width: 940px;
+    }
+    .slider-about-club {
+        margin-right: 0;
+    }
+    .news-wrap__info {
+        width: 829px;
+    }
+    .news-block__item {
+        min-width: 461px;
+    }
+    .news-block__item__img-block {
+        height: 140px;
+        width: 140px;
+    }
+    .news-block__item__info {
+        width: 268px;
+    }
+    .contacts-wrap__map {
+        width: 565px !important;
+    }
+    .footer_title {
+        font-size: 45px;
+    }
+    .slider-about-club {
+        width: 530px;
+    }
+    .news-block__item {
+        min-width: 451px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .container {
+        width: 800px;
+    }
+    .header-menu__list a {
+        font-size: 16px;
+    }
+    .social-block {
+        margin-right: 0;
+    }
+    .header-offer__desc {
+        font-size: 15px;
+    }
+    .skills-wrap__item__content__desc {
+        font-size: 15px;
+    }
+    .about-club__desc-block p {
+        font-size: 15px;
+    }
+    .news-wrap__info__desc {
+        font-size: 15px;
+    }
+    .events-block__info__desc-block {
+        font-size: 15px;
+    }
+    .news-wrap__info, .events-block__info__desc-block {
+        width: 700px;
+    }
+    .slider-about-club {
+        width: 460px;
+    }
+    .about-club-wrap__info {
+        width: 330px;
+    }
+    .news-block__item {
+        min-width: 561px;
+    }
+    .news-block__item__img-block {
+        width: 170px;
+        height: 170px;
+    }
+    .news-block__item__info {
+        width: 333px;
+    }
+    .news-block {
+        justify-content: center;
+    }
+    .events-block {
+        padding: 0;
+    }
+    .gallery__item {
+        min-height: 309px;
+        height: 309px;
+    }
+    .gallery__item__subtitle {
+        top: 15px;
+        left: 15px;
+        font-size: 13px;
+    }
+    .gallery__item__title {
+        bottom: 35px;
+        left: 15px;
+        font-size: 20px;
+    }
+    .gallery__item__date {
+        left: 15px;
+        bottom: 15px;
+        font-size: 14px;
+    }
+    .contacts-wrap__map {
+        width: 440px !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        width: 760px;
+    }
+    .skills-wrap__item__content__desc {
+        font-size: 13px;
+    }
+    .skills-wrap__item__img {
+        width: 50px;
+        height: 44px;
+    }
+    .skills-wrap__item__content__title {
+        font-size: 17px;
+    }
+    .slider-about-club {
+        width: 320px;
+    }
+    .about-club-wrap__info {
+        width: 408px;
+    }
+    .events-block__item {
+        width: 231px;
+    }
+    .contacts-wrap__map {
+        width: 400px !important;
+    }
+    .footer-menu__list a {
+        font-size: 14px;
+    }
+    .footer-bottom__desc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 610px;
+    }
+    /* Скрываем основные элементы  */
+    .header-menu_main {
+        display: none;
+    }
+    .social-block_main {
+        display: none;
+    }
+    /* Показываем кнопку меню  */
+    .mobile-menu__btn {
+        display: block;
+    }
+    .header-menu__list {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu-mobile__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        overflow-y: auto;
+        padding: 20px 0;
+    }
+    .menu-mobile {
+        width: 100%;
+        height: 100%;
+        background: #140c00ec;
+        z-index: 999;
+    }
+    .header-menu__list a {
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .social-block {
+        margin-top: 40px;
+    }
+    .menu-mobile__close-btn {
+        position: absolute;
+        top: 35px;
+        right: 35px;
+        z-index: 1000;
+    }
+
+
+    .skills {
+        padding: 35px 0;
+    }
+    .skills-wrap__item {
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 187px;
+        flex-direction: column;
+    }
+    .skills-wrap__item__content {
+        text-align: center;
+    }
+    .about-club-wrap__info {
+        width: 278px;
+    }
+    .news-wrap__info, .events-block__info__desc-block {
+        width: 100%;
+    }
+    .events-block {
+        justify-content: space-evenly;
+    }
+    .events-block__item {
+        margin-bottom: 15px;
+    }
+    .contacts-wrap {
+        flex-wrap: wrap;
+    }
+    .contacts-wrap__map {
+        width: 100% !important;
+    }
+    .contacts-wrap__info {
+        width: 100% !important;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .contacts-wrap__info__social {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 470px;
+    }
+    .header-offer__logo {
+        margin-bottom: 25px;
+        width: 200px;
+        height: 180px;
+        object-fit: contain;
+    }
+    .header-offer__desc {
+        width: 100%;
+    }
+    .about-club-wrap {
+        flex-wrap: wrap;
+    }
+    .about-club-wrap__info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .slider-about-club {
+        width: 100%;
+    }
+    .slider-about-club .slider__item {
+        height: 212px;
+    }
+    .news-block__item {
+        min-width: 100%;
+    }
+    .news-block__item__img-block {
+        height: 140px;
+        width: 140px;
+    }
+    .news-block__item__info {
+        width: 282px;
+    }
+    .gallery__item {
+        min-height: 330px;
+        height: 330px;
+    }
+    .footer-wrap {
+        flex-wrap: wrap;
+    }
+    .footer-form-wrap {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        width: 370px;
+    }
+    .header-nav {
+        padding: 0 5px;
+    }
+    .header-offer__title {
+        font-size: 38px;
+    }
+    .header-offer__logo {
+        margin-bottom: 20px;
+        width: 170px;
+        height: 160px;
+        object-fit: contain;
+    }
+    .header {
+        padding-bottom: 40px;
+        min-height: 514px;
+    }
+    .skills-wrap__item {
+        width: 117px;
+    }
+    .news-block__item__img-block {
+        width: 110px;
+        height: 110px;
+    }
+    .footer-menu__list {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 340px;
+    }
+    .skills-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .skills-wrap__item {
+        width: 100%;
+    }
+    .skills-wrap__item__img {
+        width: 70px;
+        height: 64px;
+    }
+    .skills-wrap__item__content__title {
+        font-size: 18px;
+    }
+    .skills-wrap__item {
+        gap: 8px;
+        margin-bottom: 25px;
+    }
+    .news-block__item__img-block {
+        width: 85%;
+        height: 130px;
+        border-radius: 16px;
+        margin: 0 auto;
+    }
+    .news-block__item__info {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .news-block__item {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .header-offer__title {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        width: 300px;
+    }
+}
